@@ -76,6 +76,8 @@ app.post("/orders", (req, res) => {
     return res.status(400).json({ error: "Invalid order data" });
   }
 
+
+  
   const order = {
     id: uuidv4(),
     product: { ...product },
