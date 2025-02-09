@@ -20,9 +20,6 @@ function logRequest(req, res, next) {
 
 app.use(logRequest);
 
-
-
-
 // Get all products
 app.get("/products", (req, res) => {
   res.json(products);
