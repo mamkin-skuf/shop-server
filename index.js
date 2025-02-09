@@ -115,5 +115,3 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log(`Shop server running on http://localhost:${PORT}`);
 });
-
-
